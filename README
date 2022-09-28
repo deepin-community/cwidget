@@ -1,0 +1,57 @@
+(0) Compiling libcwidget
+
+  Compiling cwidget requires a C++ compiler and the ncurses library in
+  its wide-character form (libncursesw).  To generate API
+  documentation, you will also need doxygen (see
+  http://www.doxygen.org).
+
+  To compile the library, run "./configure && make".  If doxygen is
+  installed, you can build documentation in the directory "doc" by
+  running "make doc".
+
+
+
+(1) Installing libcwidget
+
+  To install the library, run "make install".
+
+
+
+(2) Writing software that uses cwidget.
+
+  To include cwidget headers, you should use include paths starting
+  with cwidget:
+
+#include <cwidget/widgets/tree.h>
+
+  See the headers and the generated documentation for more
+  information.
+
+
+
+(3) Compiling software that uses cwidget. (pkg-config)
+
+The canonical way to retrieve the include and link flags for programs
+using cwidget is through pkg-config.  By hand, the commands:
+
+  pkg-config --cflags cwidget
+  pkg-config --libs cwidget
+
+will give you compile and linker flags for a program using cwidget.
+You can also include the following line in your configure.ac:
+
+  PKG_CHECK_MODULES([CWIDGET], [cwidget])
+
+See pkg-config(1) for more details.
+
+
+
+(4) Compiling software that uses cwidget. (manual)
+
+  Using pkg-config is recommended, as this will insulate you against
+  any changes in the layout of the library.  However, if you do not
+  wish to use pkg-config, you can find the cwidget headers in
+  $(includedir) and $(libdir)/cwidget, and the libraries in $(libdir).
+  Typically this will mean /usr/include and /usr/local/lib.  (the
+  configuration header is placed under $(libdir) because it is
+  system-dependent data)

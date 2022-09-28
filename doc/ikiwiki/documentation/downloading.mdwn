@@ -1,0 +1,41 @@
+[[meta title="Getting cwidget"]]
+
+## Source packages
+
+The cwidget source is available from the [project's download page on
+alioth][0].  Copies of the source are uploaded to the Debian archive
+and can be retrieved from cwidget's [Debian package page][1].
+
+[0]: <http://alioth.debian.org/frs/?group_id=100001>
+[1]: <http://packages.debian.org/cwidget>
+
+Once you have the source code you probably will want to
+[[install|installing]] it.
+
+## Binary packages
+
+If you do not want to compile from source, you will have to find
+pre-compiled packages for your operating system.
+
+If your operating system is not listed here and binary packages exist
+for it, please email <cwidget-devel@lists.alioth.debian.org> with
+information on where the binary packages are.
+
+### Debian unstable
+
+Binary packages of the latest version of cwidget are available in
+Debian unstable.  The package `libcwidget-dev` is needed to compile or
+run software that uses cwidget; run
+
+> aptitude install libcwidget-dev
+
+or
+
+> apt-get install libcwidget-dev
+
+to install it.
+
+### Other Linux distributions
+
+Use your distribution's package manager to determine whether cwidget
+packages are available and in what version.

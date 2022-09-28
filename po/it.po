@@ -1,0 +1,119 @@
+# Italian translations for aptitude package.
+# Copyright © 2004 Daniel Burrows
+# This file is distributed under the same license as the aptitude package.
+# Danilo Piazzalunga <danilopiazza@gmail.com>, 2004-2008.
+#
+# Convenzioni usate, per rendere più semplice la loro individuazione ed
+# eventuale sostituzione (cfr. traduzioni di dpkg e apt):
+#
+# “Breaks”............: «Rende difettoso:» (vedere “broken”)
+# “broken”............: «difettoso» (dpkg)
+#       Peggiore di «errato», ma migliore di «rotto» (apt).
+# “cache file”........: «file cache»
+# “candidate version”.: «versione candidata»
+# “Debian changelog”..: «changelog Debian»
+# “Conflicts:”........: «È/va in conflitto» (dpkg, apt)
+# “downgrade”.........: «retrocedere (downgrade)» (apt)
+#       Unica soluzione sensata per rendere il concetto.
+# “extended state”....: «stato esteso»
+# “fix”...............: «correggere»
+# “forbidden version”.: «versione proibita»
+# “new”...............: «nuovo (new)» (apt)
+#       Riferito a pacchetti che prima non erano installati.
+# “obsolete”..........: «vecchio»
+#       Riferito a (file di) pacchetti sostituiti da versioni più recenti.
+# “obsolete”..........: «obsoleto»
+#       Riferito a librerie che esistono solo per compatibilità o a pacchetti
+#       che non esistono più.
+# “Obsoletes:”........: «Rende obsoleto:» (apt)
+# “package lists”.....: «elenco dei pacchetti»
+# “Provides:”.........: «Fornisce:» (dpkg, apt)
+# “Replaces:”.........: «Sostituisce:» (apt)
+# “source list”.......: «elenco delle sorgenti»
+# “Suggests:”.........: «Consiglia:» (apt)
+#       Migliore di «suggerisce» (dpkg).
+# “task”:.............: «task» (tasksel)
+# “unpack/unpacked”...: «estrarre/estratto» (apt)
+#       Migliore di «spacchettato» (dpkg).
+#
+# Molti messaggi sono stati tradotti in modo da essere visualizzati
+# correttamente in un terminale a 80 colonne.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aptitude 0.4.11.10\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-02-12 15:57+0800\n"
+"Last-Translator: Danilo Piazzalunga <danilopiazza@gmail.com>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr ""
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "Ok"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Sì"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "No"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Annulla"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr ""
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr ""
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr ""
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr ""
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr ""
+
+# Put the appropriate key for Y/N choices here (lower case)
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "s"
+
+# Put the appropriate key for Y/N choices here (lower case)
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "n"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr ""
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr ""

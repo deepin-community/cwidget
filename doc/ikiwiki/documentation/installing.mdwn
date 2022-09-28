@@ -1,0 +1,86 @@
+[[toc ]]
+
+[[meta title="Installing cwidget from source"]]
+
+Once you have [[downloaded|downloading]] the cwidget source code, you
+probably will want to compile and install it.
+
+## Prerequisites
+<a name="prerequisites">
+
+In order to compile cwidget, you must have the following packages
+installed:
+
+  * [libsigc++][], version 2.0 or above.
+  * [libncurses][], compiled with wide-character support.
+  * [g++][], the GNU C++ compiler; version 3.2 or above is recommended.
+  * a `make` program; [GNU make][] is recommended.
+  * a Bourne-compatible shell such as [Bash][].
+
+[libsigc++]: <http://libsigc.sourceforge.net>
+[libncurses]: <http://www.gnu.org/software/ncurses/>
+[g++]: <http://gcc.gnu.org>
+[GNU make]: <http://www.gnu.org/software/make/>
+[Bash]: <http://www.gnu.org/software/bash/>
+
+In order to generate the included documentation, the following
+additional packages are required:
+
+  * [doxygen][] to generate the API documentation.
+  * [ikiwiki][] to generate the HTML page (what you are reading
+              right now).
+
+[doxygen]: <http://www.doxygen.org>
+[ikiwiki]: <http://ikiwiki.info>
+
+### OS-specific instructions
+
+This section describes how to acquire the prerequisites of cwidget on
+various operating systems.
+
+If your operating system is not listed here, please email
+<cwidget-devel@lists.alioth.debian.org> with instructions on how to
+install the prerequisites on your operating system.
+
+#### Debian unstable
+
+  * On Debian unstable, install the packages `libsigc++-2.0-dev`,
+    `libncursesw5-dev`, and `g++`.
+
+## Compiling cwidget
+<a name="compiling">
+
+To compile cwidget, run the following command in the root of the
+source distribution:
+
+>     sh ./configure && make
+
+This will autodetect libraries and utilities on your system, then
+compile the source code.  By default, cwidget will be configured to be
+installed in the directory `/usr/local/`; to place it in another
+directory, run
+
+>     sh ./configure --prefix=$PREFIX && make
+
+where `$PREFIX` is the directory under which cwidget should be
+installed.  For instance, to install in your home directory, you could
+pass `--prefix=$HOME` on the command-line.
+
+If you also want to build documentation, run:
+
+>     make doc
+
+after building the source.
+
+## Installing cwidget
+
+Once you have [[compiled|install#compiling]] cwidget, you can install
+it with the command:
+
+>     make install
+
+If you are installing in a system directory, this command has to be
+run as root.
+
+Once cwidget is installed, you may want to [[use|using]] it in some of
+your own programs.

@@ -1,0 +1,80 @@
+# Thai translation of cwidget.
+# Copyright (C) 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the cwidget package.
+# Theppiak Karoonboonyanan <thep@linux.thai.net>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cwidget\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-06-10 19:23+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "พารามิเตอร์กำหนดฟอร์แมตไม่ถูกต้อง"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "ตกลง"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "ใช่"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "ไม่"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "ทรัพยากรไม่เพียงพอสำหรับสร้างเธรด"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "โอ๊ะ!  ได้รับ SIGTERM ขอจบการทำงาน..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "โอ๊ะ!  ได้รับ SIGSEGV ขอจบการทำงาน..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "โอ๊ะ!  ได้รับ SIGABRT ขอจบการทำงาน..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "โอ๊ะ!  ได้รับ SIGQUIT ขอจบการทำงาน..\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "ช"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "ม"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr "ไม่สามารถโหลดชื่อแฟ้ม: สตริง %ls ไม่ได้อยู่ในรูปมัลติไบต์"
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "ระดับบนสุด"

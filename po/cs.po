@@ -1,0 +1,82 @@
+# Czech translation for package cwidget.
+# Copyright (C) 2012 Michal Simunek <michal.simunek@gmail.com>
+# This file is distributed under the same license as the cwidget package.
+# Michal Simunek <michal.simunek@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cwidget 0.5.16\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-05-16 13:31+0200\n"
+"Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
+"Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "Špatný formát parametru"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "Ok"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Ano"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "Ne"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "K vytvoření vlákna není dostatek zdrojů"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "Ou!  Obdrženo SIGTERM, umírám..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "Ou!  Obdrženo SIGSEGV, umírám..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "Ou!  Obdrženo SIGABRT, umírám..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "Ou!  Obdrženo SIGQUIT, umírám..\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "ano"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "ne"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr ""
+"Nepodařilo se nahrát název souboru: řetězec %ls nemá vícebytovou "
+"reprezentaci."
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "NEJVYŠŠÍ ÚROVEŇ"

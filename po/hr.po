@@ -1,0 +1,82 @@
+# Translation of aptitude to Croatian.
+# Copyright (C) 2012 Daniel Burrows <dburrows@debian.org>
+# This file is distributed under the same license as the aptitude package.
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aptitude\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-06-11 18:10+0200\n"
+"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "Neispravan parametar oblika"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "U redu"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Da"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "Ne"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "Nema dovoljno resursa za stvaranje dretve"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "Primljen SIGTERM, zaustavljam..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "Primljen SIGSEGV, zaustavljam..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "Primljen SIGABRT, zaustavljam..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "Primljen SIGQUIT, zaustavljam..\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "d"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "n"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr "Ne mogu učitati ime datoteke: niz %ls nema višebajtni znak za prikaz."
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "NAJVIŠA RAZINA"

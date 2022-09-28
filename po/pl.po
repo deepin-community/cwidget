@@ -1,0 +1,84 @@
+# Copyright (C) 2009 Daniel Burrows <dburrows@debian.org>
+# This file is distributed under the same license as the cwidget package.
+#
+# Michał Kułach <michal.kulach@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: cwidget 0.5.16\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-02-22 21:46+0100\n"
+"Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
+"Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "Zły format parametru"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "Ok"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Tak"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "Nie"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "Za mało zasobów, aby stworzyć wątek"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "Auć! Przechwycono SIGTERM, przerywanie...\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "Auć! Przechwycono SIGSEGV, przerywanie...\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "Auć! Przechwycono SIGABRT, przerywanie...\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "Auć! Przechwycono SIGQUIT, przerywanie...\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "t"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "n"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr ""
+"Nie udało się załadować nazwy pliku: ciąg %ls nie ma reprezentacji "
+"wielobajtowej."
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "NAJWYŻSZY POZIOM"

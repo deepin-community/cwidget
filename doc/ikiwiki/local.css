@@ -1,0 +1,72 @@
+body {
+  background: #E0E0E0
+}
+
+#sidebar {
+  display: block;
+  float: right;
+  line-height: 3ex;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+#sidebar * {
+  color: #FFFFFF
+}
+
+#sidebar :link {
+  color: aqua;
+  text-decoration: none;
+}
+
+#sidebar :visited {
+  color: #ffe0e0;
+  text-decoration: none;
+}
+
+#sidebar ul {
+  display: block;
+  background: #A0A0A0;
+  margin: 0px;
+  padding: 0px;
+  border: thin dashed black;
+}
+
+#sidebar li {
+  display: block;
+  position: relative; /* Needed to establish a containing block (gross). */
+  padding: 2px;
+}
+
+#sidebar li > .selflink {
+  display: block;
+  background: #B0B0B0;
+}
+
+#sidebar li > a {
+  display: block;
+}
+
+#sidebar li > a:hover {
+  background: #a0a0c0;
+  color: black;
+}
+
+#sidebar li > ul {
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  display: none;
+}
+
+#sidebar li:hover > ul {
+  display: inline;
+}
+
+#sidebar li:hover > ul li {
+  display: block;
+}

@@ -1,0 +1,87 @@
+# Chinese (China) translation of aptitude
+# Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the aptitude package.
+# Yongtao Yang <yongtao.yang@telia.com>, 2004.
+# Haifeng Chen <optical.dlz@gmail.com>, 2005.
+# Ming Hua <minghua@rice.edu>, 2005, 2006.
+# Carlos Z.F. Liu <carlosliu@users.sourceforge.net>, 2005, 2006.
+# Kov Chai <tchaikov@sjtu.org>, 2007.
+# Deng Xiyue <manphiz-guest@users.alioth.debian.org>, 2007, 2008, 2010.
+# YunQiang Su <wzssyqa@gmail.com>, 2010.
+# Aron Xu <happyaron.xu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: aptitude\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-06-04 22:57+0800\n"
+"Last-Translator: Never Min <never.min@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "不正确的参数格式"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "确定"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "是"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "否"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "取消"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "没有足够的资源来创建线程"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "哎唷！接收到 SIGTERM 信号，正在退出..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "哎唷！接收到 SIGSEGV 信号，正在退出..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "哎唷！接收到 SIGABRT 信号，正在退出..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "哎唷！接收到 SIGQUIT 信号，正在退出..\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "y"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "n"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr "无法加载文件名：该字符串 %ls 为非多字节表示。"
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "顶层"

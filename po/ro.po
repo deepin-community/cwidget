@@ -1,0 +1,84 @@
+# Translation of aptitude to Romanian.
+# This file is distributed under the same license as the aptitude package.
+#
+# Sorin Batariuc <sorin@bonbon.net>, 2004, 2005, 2006.
+# Eddy Petrișor <eddy.petrisor@gmail.com>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: aptitude\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-02-12 15:07+0800\n"
+"Last-Translator: Eddy Petrișor <eddy.petrisor@gmail.com>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "Format parametru necorespunzător"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "Ok"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Da"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "Nu"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Anulează"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "Nu sunt suficiente resurse pentru crearea firului de execuție"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "Aoleu!  Am primit SIGTERM, moooor..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "Aoleu!  Am primit SIGSEGV, mooooor..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "Aoleu!  Am primit SIGABRT, mooooor..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "Aoleeu!  Am primit SIGHQUIT, mooooor...\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "da_key"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "nu_key"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr ""
+"Nu pot încărca numele fișierului: șirul %ls nu are reprezentare multioctet."
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "NIVELUL DE SUS"

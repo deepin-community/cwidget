@@ -1,0 +1,6 @@
+# cwidget documentation
+
+  * [[Getting_cwidget|downloading]]
+  * [[Installing_cwidget_from_source|installing]]
+  * [[Using_cwidget_in_your_software|using]]
+  * [[Contributing_to_the_development_of_cwidget|contributing]]

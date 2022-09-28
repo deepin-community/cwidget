@@ -1,0 +1,92 @@
+# Some function arguments good to know
+# ====================================
+#
+# src/ui.cc
+# ---------
+#
+# * add_menu(*info, &name, &menu_description)
+#   * menu_description: Item name in the menu line.
+# * setup_fileview(&filename, *encoding, &menudesc, &longmenudesc, &tabdesc)
+#   * menudesc: Item name in the "View" menu.
+#   * longmenudesc: Item description in the "View" menu.
+#   * tabdesc: Tab name.
+# * add_main_widget(&w, &menuref, &menudesc, &tabdesc)
+#   * menuref: Item name in the "View" menu.
+#   * menudesc: Menu item description.
+#   * tabdesc: Tab name and menu item name.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.5.16-3.3\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-06-03 11:48+0900\n"
+"Last-Translator: Kenshi Muto <kmuto@debian.org>\n"
+"Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "不正なフォーマットパラメータ"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "OK"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "はい"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "いいえ"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "スレッドを作成するのに十分なリソースがありません"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "おっと! SIGTERM を受け付けました。終了しています..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "おっと! SIGSERV を受け付けました。終了しています..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "おっと! SIGABRT を受け付けました。終了しています..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "おっと! SIGQUIT を受け付けました。終了しています..\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "y"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "n"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr "ファイル名を読み込めません: 文字列 %ls はマルチバイト表現できません。"
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "トップレベル"

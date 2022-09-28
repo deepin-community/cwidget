@@ -1,0 +1,81 @@
+# Danish translation cwidget.
+# Copyright (C) 2012 cwidget & nedenstående oversættere.
+# This file is distributed under the same license as the cwidget package.
+# Joe Hansen <joedalton2@yahoo.dk>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cwidget 0.5.16\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-05-06 19:21+0100\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "Ugyldig formatparameter"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "O.k."
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Ja"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "Nej"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Afbryd"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "Ikke nok ressourcer til at oprette tråd"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "Av!    Fik SIGTERM, dør ...\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "Av!    Fik SIGSEGV, dør ...\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "Av!    Fik SIGABRT, dør ...\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "Av!    Fik SIGQUIT, dør ...\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "ja_tast"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "nej_tast"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr ""
+"Kan ikke indlæse filnavn: Strengen %ls har ingen multibyte-repræsentation."
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "TOPNIVEAU"

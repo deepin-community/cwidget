@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Burrows <dburrows@debian.org>
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aptitude\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-02-23 16:51+0800\n"
+"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"Language: dz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "ཚད་བཟུང་གི་རྩ་སྒྲིག་བྱང་ཉེས།"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "བཏུབ།"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "བཏུབ།"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "མི་བཏུབ།"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "ཆ་མེད།"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "ཐེ་རེཌི་གསར་བསྐྲུན་འམད་ནིའི་་དོན་ལུ་ ཐོན་ཁུངས་ལངམ་སྦེ་མེད།"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "ཨའུཅི! སིག་ཊམ་ཐོབ་ཅི། ཤི་རྐྱེན་བྱུང་དོ་..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "ཨའུཅི!སིག་སེགཝི་ཐོབ་ཅི། ཤི་རྐྱེན་བྱུང་དོ..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "ཨའུཅི! སི་བརཊི་ཐོབ་ཅི། ཤི་རྐྱེན་བྱུང་དོ..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "ཨའུཅི! སིག་ཀེཡུཊི་ཐོབ་ཅི། ཤི་རྐྱེན་བྱུང་དོ..\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr ""
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr ""
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་ཕབ་ལེན་འབད་མ་ཚུགས། ཡིག་རྒྱུན་%lsདེ་ལུ་མལ་ཊི་བའིཊི་ཁྱད་ཚབ་མེད།"
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "གནས་རིམ་དྲག་ཤོས།"

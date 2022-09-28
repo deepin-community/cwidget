@@ -1,0 +1,90 @@
+# Greek translation of aptitude
+#
+# This file is distributed under the same license as the aptitude package.
+# Nikos Niktaris <niktarin@yahoo.com>
+#
+# Konstantinos Margaritis <markos@debian.org>, 2003, 2004, 2006.
+# George Papamichelakis <george@step.gr>, 2004.
+# Greek Translation Team <debian-l10n-greek@lists.debian.org>, 2005.
+# quad-nrg.net <galaxico@quad-nrg.net>, 2005, 2006.
+# quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: aptitude\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-02-12 15:46+0800\n"
+"Last-Translator: quad-nrg.net <yodesy@quad-nrg.net>\n"
+"Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Translation addition: Nick Niktaris <niktarin@yahoo.com>\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "Λανθασμένη παράμετρος διαμόρφωσης"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "Εντάξει"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Ναι"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "Οχι"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "Ανεπαρκείς πηγές για την δημιουργία νήματος"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "Ωχ!  Έλαβα το σήμα SIGTERM, έφυγα..\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "Ωχ!  Έλαβα το σήμα SIGSEGV, έφυγα..\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "Ωχ!  Έλαβα το σήμα SIGABRT, έφυγα..\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "Ωχ!  Έλαβα το σήμα SIGQUIT, έφυγα..\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "Ν"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "Ο"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr ""
+"Αδυναμία φόρτωσης ονόματος αρχείου: η συμβολοσειρά %ls δεν έχει αναπαράσταση "
+"multibyte."
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "ΚΟΡΥΦΑΙΟ ΕΠΙΠΕΔΟ"

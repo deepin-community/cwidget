@@ -1,0 +1,88 @@
+# This file is distributed under the same license as the cwidget package.
+# Copyright (C) 2004 THE aptitude'S COPYRIGHT HOLDER.
+#
+# Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.
+# Yuriy Talakan' <yt@amur.elektra.ru>, 2004.
+# Dmitry Beloglazov <dm-guest@alioth.debian.org>, 2004.
+# Max Kosmach <max@tcen.ru>, 2008.
+# Yuri Kozlov <kozlov.y@gmail.com>, 2004, 2005, 2006, 2007, 2008.
+# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: cwidget 0.5.16-3.3\n"
+"Report-Msgid-Bugs-To: dburrows@debian.org\n"
+"POT-Creation-Date: 2019-06-19 00:52+0200\n"
+"PO-Revision-Date: 2012-06-05 21:00+0400\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: src/cwidget/config/column_definition.cc:273
+msgid "Bad format parameter"
+msgstr "Неверный параметр формата"
+
+#: src/cwidget/dialogs.cc:115 src/cwidget/dialogs.cc:128
+#: src/cwidget/dialogs.cc:311 src/cwidget/dialogs.cc:351
+msgid "Ok"
+msgstr "Ok"
+
+#: src/cwidget/dialogs.cc:201 src/cwidget/dialogs.cc:239
+msgid "Yes"
+msgstr "Да"
+
+#: src/cwidget/dialogs.cc:202 src/cwidget/dialogs.cc:240
+msgid "No"
+msgstr "Нет"
+
+#: src/cwidget/dialogs.cc:352
+msgid "Cancel"
+msgstr "Отменить"
+
+#: src/cwidget/generic/threads/threads.cc:33
+msgid "Not enough resources to create thread"
+msgstr "Недостаточно ресурсов для создания нити"
+
+#: src/cwidget/toplevel.cc:158
+#, c-format
+msgid "Ouch!  Got SIGTERM, dying..\n"
+msgstr "Ох! Получен SIGTERM, закругляемся…\n"
+
+#: src/cwidget/toplevel.cc:161
+#, c-format
+msgid "Ouch!  Got SIGSEGV, dying..\n"
+msgstr "Ох! Получен SIGSEGV, закругляемся…\n"
+
+#: src/cwidget/toplevel.cc:164
+#, c-format
+msgid "Ouch!  Got SIGABRT, dying..\n"
+msgstr "Ох! Получен SIGABRT, закругляемся…\n"
+
+#: src/cwidget/toplevel.cc:167
+#, c-format
+msgid "Ouch!  Got SIGQUIT, dying..\n"
+msgstr "Ох! Получен SIGQUIT, закругляемся…\n"
+
+#: src/cwidget/toplevel.cc:957
+msgid "yes_key"
+msgstr "д"
+
+#: src/cwidget/toplevel.cc:958
+msgid "no_key"
+msgstr "н"
+
+#: src/cwidget/widgets/pager.cc:476
+#, c-format
+msgid ""
+"Unable to load filename: the string %ls has no multibyte representation."
+msgstr ""
+"Не удалось загрузить файл: строка %ls не имеет многобайтового представления."
+
+#: src/cwidget/widgets/tree.cc:1009
+msgid "TOP LEVEL"
+msgstr "ВЕРХНИЙ УРОВЕНЬ"
