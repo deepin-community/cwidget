@@ -5,7 +5,8 @@ Homepage: https://salsa.debian.org/cwidget-team/
 Vcs-Git: https://salsa.debian.org/cwidget-team/cwidget.git
 Vcs-Browser: https://salsa.debian.org/cwidget-team/cwidget
 Maintainer: Manuel A. Fernandez Montecelo <mafm@debian.org>
-Build-Depends: debhelper (>= 12~),
+Uploaders: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13),
                gettext,
                libcppunit-dev (>= 1.13.2-2.1),
                libncurses-dev (>= 6.0+20180210),
@@ -15,7 +16,7 @@ Build-Depends-Indep: doxygen,
                      libhtml-scrubber-perl,
                      libimage-magick-perl
 Rules-Requires-Root: no
-Standards-Version: 4.3.0
+Standards-Version: 4.6.1
 
 
 Package: libcwidget4
