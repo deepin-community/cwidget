@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: cwidget
-Source: https://anonscm.debian.org/cgit/cwidget/cwidget-upstream.git
+Source: https://salsa.debian.org/cwidget-team/cwidget-upstream
 
 Files: *
 Copyright: 1999-2010 Daniel Burrows <dburrows@debian.org>

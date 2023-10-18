@@ -1,3 +1,27 @@
+cwidget (0.5.18-6) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository, Repository-Browse.
+
+  [ Axel Beckert ]
+  * Add myself to uploaders.
+  * Add generated file po/libcwidget4.pot to debian/clean to allow
+    building twice in a row.
+  * Also switch upstream URL in debian/copyright from Alioth to Salsa.
+  * Declare compliance with Debian Policy 4.6.1. No changes seem to be
+    necessary for that.
+  * Bump debhelper compat level to 13.
+    + Build-depend on "debhelper-compat (= 13)" to replace debian/compat.
+    + Call dh_missing with --list-missing for now. libcwidget.la wasn't
+      included beforehand either.
+  * Stop explicitly using the -Wl,--as-needed linker flag. Thanks Lintian!
+
+  [ Paul Wise ]
+  * Patch to add missing "#include <pthread.h>". Fixes FTBFS in cwidget as
+    well as in aptitude with GCC 12. (Closes: #1015925)
+
+ -- Axel Beckert <abe@debian.org>  Sat, 06 Aug 2022 03:59:19 +0200
+
 cwidget (0.5.18-5) unstable; urgency=medium
 
   [ Sven Joachim ]
